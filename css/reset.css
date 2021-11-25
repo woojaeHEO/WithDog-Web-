@@ -68,6 +68,9 @@ mark {
     font-style:italic;
     font-weight:bold;
 }
+button{
+    cursor: pointer;
+}
 
 del {
     text-decoration: line-through;

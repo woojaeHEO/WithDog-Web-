@@ -5,8 +5,31 @@
 html,
 body{position: relative;height: 100%;}
 body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
+.slider-section{margin-bottom: 80px;}
 .swiper{width: 100%;height: 100%;}
 .swiper-slide{text-align: center;font-size: 18px; display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
 .swiper-slide img{position: relative; display: block;width: 100%;height: 100%;object-fit: cover;}
-.swiper-slide > div{position: absolute; }
+.swiper-slide > div{position: absolute; text-align: left; }
+.swiper-slide > div h1{font-size: 70px; margin-bottom: 15px;}
+.swiper-slide > div h1 span{color: #ffc221; display: block;}
+.swiper-slide > div P{line-height: 22px; font-size: 17px; margin-bottom: 20px;}
+.swiper-slide > div button{ width: 250px; border: none; background: #ffc221; padding: 9px 0px; color: #fff; font-size: 17px; border-radius: 30px 0px 30px 30px; display: inline-block; text-align: center;}
+.swiper-slide > div button:hover{color: white; background-color: black; transition-duration: 0.5s;}
+/* slider_section fin */
 
+/* second-section str */
+.second-section{text-align: center; margin-bottom: 80px;}
+.second-section > div{background-color: #ffc221;}
+.total-title{font-size: 45px; font-weight: 700; margin-bottom: 20px;}
+.total-title::after{position: relative; content: ''; top: 100%; width: 110px; height: 5px; display: block; margin: 0 auto; background: #000;}
+.total-title span{color: #ffc221;}
+.total-p{font-size: 25px; display: block; margin-bottom: 50px;}
+.second-sub{background-color: white; box-shadow: #ddd 0px 0px 10px 3px; padding: 40px 20px;}
+.second-sub > ul{display: flex; margin-bottom: 30px;}
+.second-sub > ul li{width: 25%;}
+.second-sub > ul li figure img{display: block; width: 100%; max-width: 164px;  margin: 0 auto 20px;}
+.second-sub > ul li figure figcaption{font-size: 20px; margin-bottom: 15px;}
+.second-sub > ul li figure p{display: block; font-size: 17px; line-height: 23px; width: 100%; max-width: 85%; margin: 0 auto;}
+.second-sub button{border: 1px solid #ffc221; font-size: 20px;  background-color: white; padding: 15px 40px;}
+.second-sub button:hover{background-color: #ffc221; transition-duration: 0.5s;}
+/* second-section fin */
