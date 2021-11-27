@@ -8,7 +8,10 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/import.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="JS/Lus.js"></script>
     <title>WithDog</title>
+    
 </head>
 <body>
     <!-- header str -->
@@ -36,6 +39,20 @@
                     <li><a href="#">LOGIN</a></li>
                 </ul>
             </nav>
+            <aside>
+                <label for="mui" class="material-icons">menu</label>
+                <input class="none-input" type="checkbox" id="mui">
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PRODUCT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">SIGNUP</a></li>
+                    </ul>
+                </nav>
+            </aside>
         </div>   
     </header>
     <!-- header fin -->
@@ -375,7 +392,10 @@
      <section class="six-section">
          <div class="container">
             <div>
-                <span>REQUEST A FREE QUOTE <img src="img/calll_icon.png" alt=""></span>
+                <div>
+                    <span>REQUEST A FREE QUOTE</span>
+                    <img src="img/calll_icon.png" alt="#">
+                </div>
                 <p>Get answers and advice from people you want it from.</p>
             </div>
             <button type="button">Get Quote</button>
@@ -391,8 +411,8 @@
                 <ul>
                     <li>
                         <h3>CONATCT US</h3>
-                        <p>123 Second Street Fifth Avenue,
-                            Manhattan, New York
+                        <p>123 Second Street Fifth Avenue,<br>
+                            Manhattan, New York<br>
                             +987 654 3210
                         </p>
                     </li>

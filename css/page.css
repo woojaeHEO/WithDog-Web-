@@ -1,5 +1,4 @@
 
-.container{display: block; width: 100%; max-width: 1140px; margin: 0 auto;}
 .title-margin{text-align: center; margin-bottom: 80px;}
 /* slider_section str */
 html,
@@ -20,7 +19,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 /* second-section str */
 .second-section > div{background-color: #ffc221;}
 .second-sub{background-color: white; box-shadow: #ddd 0px 0px 10px 3px; padding: 40px 0;}
-.second-sub > ul{display: flex; margin-bottom: 30px;}
+.second-sub > ul{display: flex; margin-bottom: 30px; flex-wrap: wrap;}
 .second-sub > ul li{width: 25%;}
 .second-sub > ul li figure img{display: block; width: 100%; max-width: 164px;  margin: 0 auto 20px;}
 .second-sub > ul li figure p{display: block; font-size: 17px; line-height: 23px; width: 100%; max-width: 85%; margin: 0 auto;}
@@ -56,7 +55,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 /* five-section str */
 .five-section{margin-bottom: 80px;}
 .five-section div h2{font-size: 45px; font-weight: 500; margin-bottom: 50px;}
-.five-section div > ul li{display: block; width: 100%; margin-bottom: 30px;}
+.five-section div > ul li{display: block; width: 100%; margin-bottom: 40px;}
 .five-section div > ul li p{font-size: 17px; line-height: 25px;}
 .five-section div > ul li > div{display: flex; margin-bottom: 20px;}
 .five-section div > ul li > div div{display: table; margin-left: 30px;}
@@ -67,9 +66,75 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 
 /* six-section str */
 .six-section > div{background: #ffc221; padding: 40px 30px; margin-top: 100px; display: flex; justify-content: space-between;}
-.six-section > div div span{font-size: 31px; color: white; font-weight: 700; margin-bottom: 10px; display: inline-block;}
-.six-section > div div span img{margin-left: 10px;}
+.six-section > div div div{display: flex; margin-bottom: 10px;}
+.six-section > div div div span{font-size: 31px; color: white; font-weight: 700; margin-bottom: 10px; display: inline-block;}
+.six-section > div div div img{margin-left: 15px;}
 .six-section > div div p{font-size: 22px; font-weight: 500;}
 .six-section > div button{background: #000; border-radius: 30px; margin-top: 6px; max-width: 344px; width: 100%; font-size: 31px; color: white;  text-align: center; border: none; height: 60px;}
 .last-img{display: block; width: 100%; max-width: 1903px;}
 /* six-section fin */
+
+
+@media screen and (max-width: 1139px){
+    /* slider_section str */
+    .swiper-slide > div h1{font-size: 50px;}
+    .swiper-slide > div P{font-size: 15px;}
+    /* slider_section fin */
+
+    /* third-section str */
+    .third-section > ul{justify-content: center;}
+    .third-section > ul > li {width: 46%;}
+    /* third-section fin */
+
+    /* fourth-section str */
+    .fourth-ul{justify-content: center;}
+    .fourth-ul > li{width: 47%;}
+    /* fourth-section fin */
+
+    /* six-section str */
+    .six-section > div div div{display: block;}
+    /* six-section fin */
+}
+@media screen and (max-width: 735px){
+    /* slider_section str */
+    .swiper-slide > div h1{font-size: 35px; margin-bottom: 10px;}
+    .swiper-slide > div P{font-size: 14px; margin-bottom: 10px;}
+    .swiper-slide > div button{padding: 5px 0;}
+    /* slider_section fin */
+
+    /* second-section str */
+    .second-sub > ul{justify-content: center;}
+    .second-sub > ul li{width: 48%; margin-bottom: 30px;}
+    .total-title{font-size: 30px;}
+    .total-p{font-size: 17px; margin-bottom: 30px;}
+    /* second-section fin */
+
+    /* third-section str */
+    .third-section > ul > li{width: 100%;}
+    /* third-section fin */
+
+     /* fourth-section str */
+    .fourth-ul > li{width: 100%;}
+    /* fourth-section fin */
+
+    /* six-section str */
+    .six-section > div{display: block;}
+    .six-section > div div span{font-size: 25px;}
+    .six-section > div div p {font-size: 17px;}
+    .six-section > div button{height: 45px;}
+    /* six-section fin */
+}
+@media screen and (max-width: 500px){
+    /* slider_section str */
+    .swiper-slide > div {left: 40px;}
+    .swiper-slide img{height: 250px;}
+    /* slider_section fin */
+
+     /* second-section str */
+     .second-sub > ul li{width: 100%; margin-bottom: 30px;}
+     /* second-section fin */
+
+     /* five-section str */
+     .five-section div h2{font-size: 30px;}
+     /* five-section fin */
+}

@@ -1,5 +1,6 @@
 
 /* header str */
+.container{display: block; width: 100%; max-width: 1140px; margin: 0 auto;}
 header{margin-bottom: 40px;}
 header > div:first-of-type{background-color: #ffc221; margin-bottom: 40px; height: 50px;}
 header > div:last-of-type,
@@ -8,11 +9,12 @@ header > div:first-of-type div ul li{display: inline-block;}
 header > div:first-of-type div ul li:not(:first-of-type){margin-left: 10px;}
 header > div:first-of-type div p{font-size: 15px;}
 header > div:last-of-type img{display: block; width: 100%; max-width: 255px;}
-header > div:last-of-type nav ul li{display: inline-block; margin-left: 30px;}
-header > div:last-of-type nav ul li a{font-size: 15px; font-weight: 500; color: black;}
-header > div:last-of-type nav ul li:hover a{color: #ffc221; transition-duration: 0.5s;}
-header > div:last-of-type nav ul li:last-of-type{padding: 10px 40px; border-radius: 7px; background-color: #ffc221;}
-header > div:last-of-type nav ul li:last-of-type:hover a{color: white;}
+header > div:last-of-type > nav ul li{display: inline-block; margin-left: 30px;}
+header > div:last-of-type > nav ul li a{font-size: 15px; font-weight: 500; color: black;}
+header > div:last-of-type > nav ul li:hover a{color: #ffc221; transition-duration: 0.5s;}
+header > div:last-of-type > nav ul li:last-of-type{padding: 10px 40px; border-radius: 7px; background-color: #ffc221;}
+header > div:last-of-type > nav ul li:last-of-type:hover a{color: white;}
+header aside{display: none;}
 /* header fin */
 
 /* footer str */
@@ -25,3 +27,38 @@ footer > div:first-of-type div > ul li h3{font-size: 25px; margin-bottom: 30px; 
 footer > div:last-of-type{background-color: #ffc221; padding: 20px 0; text-align: center;}
 footer > div:last-of-type p{font-size: 18px; font-weight: 400;}
 /* footer fin */
+
+@media screen and (max-width: 1139px){
+    /* header str */
+    .container{width: calc(100% - 80px); max-width: 720px;}
+    header > div:last-of-type > nav ul li:last-of-type {display: none;}
+    header > div:last-of-type img{max-width: 180px;}
+    header > div:last-of-type > nav ul li{margin-left: 15px;}
+    /* header fin */
+}
+@media screen and (max-width: 735px){
+    /* header str */
+    .container{width: calc(100% - 60px); max-width: 540px;}
+    header > div:first-of-type div{justify-content: right;}
+    header > div:last-of-type{justify-content: space-between;}
+    header > div:first-of-type div p{display: none;}
+    header aside{display: block; position: relative;}
+    header > div:last-of-type > nav{display: none;}
+    .material-icons{font-size: 45px; cursor: pointer;}
+    header aside input[type='checkbox']#mui+nav{ height: 0; overflow: hidden; transition-duration: 0.5s; }
+    header aside input[type='checkbox']#mui:checked+nav{height: 180px;}
+    .none-input{display: none;}
+    header aside ul li{background-color: white; display: block; text-align: right; border-bottom: 1px solid black; padding: 10px 20px;}
+    header aside ul li a{color: black;}
+    header aside nav{position: absolute; right: 0; z-index: 999;}
+    /* header fin */
+
+    /* footer str */
+    footer > div:first-of-type div > ul{display: block;}
+    footer > div:first-of-type div > ul > li{margin-bottom: 30px; width: 100%;}
+    footer > div:first-of-type div > ul li h3{margin-bottom: 20px; font-size: 30px;}
+    footer > div:last-of-type{padding: 30px;}
+    footer > div:last-of-type p{line-height: 24px;}
+    /* footer fin */
+    
+}
