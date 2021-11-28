@@ -41,7 +41,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 /* third-section fin */
 
 /* fourth-section str */
-.fourth-section{background: url("../img/test_img02.jpg") no-repeat center center; background-size: cover;}
+.fourth-section{background: url("../img/fourth-section.png") no-repeat center center; background-size: cover;}
 .fourth-section > div{background: #ffffffbd; box-shadow: #00000040 0px 0px 25px 0px; padding: 50px 0;}
 .fourth-ul{display: flex; flex-wrap: wrap;}
 .fourth-ul > li{width: 23.2%; background-color: #ddd; margin: 0 10px 30px 10px;}
