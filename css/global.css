@@ -6,7 +6,8 @@ header > div:first-of-type{background-color: #ffc221; margin-bottom: 40px; heigh
 header > div:last-of-type,
 header > div:first-of-type div{display: flex; justify-content: space-between; align-items: center; height: 100%;}
 header > div:first-of-type div ul li{display: inline-block;}
-header > div:first-of-type div ul li:not(:first-of-type){margin-left: 10px;}
+header > div:first-of-type div ul li img{display: block; width: 100%; max-width: 16px;}
+header > div:first-of-type div ul li:not(:first-of-type){margin-left: 20px;}
 header > div:first-of-type div p{font-size: 15px;}
 header > div:last-of-type img{display: block; width: 100%; max-width: 255px;}
 header > div:last-of-type > nav ul li{display: inline-block; margin-left: 30px;}
