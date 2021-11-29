@@ -76,7 +76,6 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .last-img{display: block; width: 100%; max-width: 1903px;}
 /* six-section fin */
 
-
 @media screen and (max-width: 1139px){
     /* slider_section str */
     .swiper-slide > div h1{font-size: 50px;}
