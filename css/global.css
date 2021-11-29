@@ -52,6 +52,7 @@ footer > div:last-of-type p{font-size: 18px; font-weight: 400;}
     header aside ul li{background-color: white; display: block; text-align: right; border-bottom: 1px solid black; padding: 10px 20px;}
     header aside ul li a{color: black;}
     header aside nav{position: absolute; right: 0; z-index: 999;}
+    header > div:first-of-type{margin-bottom: 30px;}
     /* header fin */
 
     /* footer str */

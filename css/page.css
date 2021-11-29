@@ -100,6 +100,8 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
     .swiper-slide > div h1{font-size: 35px; margin-bottom: 10px;}
     .swiper-slide > div P{font-size: 14px; margin-bottom: 10px;}
     .swiper-slide > div button{padding: 5px 0;}
+    .slider-section,
+    .title-margin{margin-bottom: 50px;}
     /* slider_section fin */
 
     /* second-section str */
@@ -127,7 +129,9 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 @media screen and (max-width: 500px){
     /* slider_section str */
     .swiper-slide > div {left: 40px;}
-    .swiper-slide img{height: 250px;}
+    .swiper-slide > div P{display: none;}
+    .swiper-slide > div h1{font-size: 30px;}
+    .swiper-slide > div button{width: 180px;}
     /* slider_section fin */
 
      /* second-section str */
