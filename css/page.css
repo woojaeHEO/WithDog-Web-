@@ -17,14 +17,14 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 /* slider_section fin */
 
 /* second-section str */
-.second-section > div{background-color: #ffc221;}
+.second-section > div{background-color: #cbf0fc;}
 .second-sub{background-color: white; box-shadow: #ddd 0px 0px 10px 3px; padding: 40px 0;}
 .second-sub > ul{display: flex; margin-bottom: 30px; flex-wrap: wrap;}
 .second-sub > ul li{width: 25%;}
 .second-sub > ul li figure img{display: block; width: 100%; max-width: 164px;  margin: 0 auto 20px;}
 .second-sub > ul li figure p{display: block; font-size: 17px; line-height: 23px; width: 100%; max-width: 85%; margin: 0 auto;}
-.second-sub button{border: 1px solid #ffc221; font-size: 20px;  background-color: white; padding: 15px 40px;}
-.second-sub button:hover{background-color: #ffc221; transition-duration: 0.5s;}
+.read-button{border: 1px solid #ffc221; font-size: 20px;  background-color: white; padding: 15px 40px;}
+.read-button:hover{background-color: #ffc221; transition-duration: 0.5s;}
 .total-title{font-size: 45px; font-weight: 500; margin-bottom: 20px;}
 .total-title::after{position: relative; content: ''; top: 100%; width: 110px; height: 5px; display: block; margin: 0 auto; background: #000;}
 .total-title span{color: #ffc221;}
@@ -65,7 +65,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 /* five-section fin */
 
 /* six-section str */
-.six-section > div{background: #ffc221; padding: 40px 30px; margin-top: 100px; display: flex; justify-content: space-between;}
+.six-section > div{background: #cbf0fc; padding: 40px 30px; margin-top: 100px; display: flex; justify-content: space-between;}
 .six-section > div div div{display: flex; margin-bottom: 10px;}
 .six-section > div div div span{font-size: 31px; color: white; font-weight: 700; margin-bottom: 10px; display: inline-block;}
 .six-section > div div div img{margin-left: 15px;}
