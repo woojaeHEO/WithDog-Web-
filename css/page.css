@@ -80,7 +80,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 
 /* sub page str */
 /* login str */
-.login-section{margin: 80px auto;}
+.sub-margin{margin: 80px auto;}
 .login-title{font-size: 30px; font-weight: 700; display: block; border-bottom: 2px solid black; padding-bottom: 7px; margin-bottom: 25px;}
 .login-box{border: 1px solid black; border-top: 3px solid #8D94C7;}
 .login-box > div{display: flex; padding: 90px; justify-content: space-between;}
@@ -94,9 +94,36 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .right-loginbox ul li:first-of-type{border-right: 1px solid black; padding-right: 15px; margin-right: 15px;}
 .color-blue{color: #5990c9;}
 .right-subbox{display: flex; margin-bottom: 20px;}
-.right-subbox > div:first-of-type label input{border: 1px solid #ededed; width: 100%; max-width: 220px; height: 44px; padding-left: 15px; display: block;}
+.right-subbox > div:first-of-type label input{border: 1px solid #ededed; box-sizing: border-box; width: 100%; max-width: 240px; height: 48px; padding-left: 15px; display: block;}
 .right-subbox > div:last-of-type a{display: flex; justify-content: center; align-items: center; background-color: #8D94C7; color: white; font-weight: 700; font-size: 23px; width: 100%; max-width: 115px; height: 96px;;}
 /* login fin */
+
+/* memberjoin str */
+.first-member{border-top: 2px solid #dddddd; border-bottom: 2px solid #dddddd; padding: 20px 0 0 0;}
+.member-ul{display: flex; margin-bottom: 40px;}
+.member-ul li{width: 33%; cursor: pointer; text-align: center; padding: 15px 0; border-radius: 10px 10px 0 0; background-color: #e2e9f2; border-bottom: 2px solid #8D94C7;}
+.member-ul li.active{background-color: white; border: 2px solid #8D94C7; border-bottom: none;}
+.member-ul li a{color: black;}
+.terms-title{font-size: 23px; margin-bottom: 20px; font-weight: 700;}
+.terms-box{margin-bottom: 30px;}
+.terms-box textarea{width: 100%; text-align: left; background-color: #f6f6f6; padding: 30px; box-sizing: border-box; margin-bottom: 20px;}
+.label-box label:last-of-type{margin-left: 10px;}
+.label-box label input{margin: 0 5px 0 0;}
+.total-terms{text-align: center; display: block; width: 100%; margin: 20px 0;}
+.total-terms label{text-align: center}
+.next-button{display: block; background: url('../img/next-icon.png') no-repeat 80px center; width: 100%; max-width: 104px; height: 40px; color: white; border-radius: 5px; margin: 0 auto; text-align: center; line-height: 40px; background-color: #8D94C7;}
+/* memberjoin fin */
+
+/* certification str */
+.certification-box{display: flex; justify-content: space-between;}
+.certification-box > div{border: 1px solid #dddddd; box-sizing: border-box;}
+.certification-box > div{padding: 40px 30px; display: flex; width: 48%; cursor: pointer;}
+.certification-box > div > div:first-of-type{width: 30%;}
+.certification-box > div > div:last-of-type{width: 70%;}
+.certification-box > div > div img{display: block; width: 100%; max-width: 104px; margin: 0 auto;}
+.certification-box > div > div:last-of-type strong{font-size: 25px;  display: block; font-weight: 700; margin: 10px 0 20px 0;}
+.certification-box > div > div:last-of-type p{font-size: 15px; line-height: 22px; color: #666666;}
+/* certification fin */
 /* sub page fin */
 
 @media screen and (max-width: 1139px){
@@ -118,6 +145,18 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
     /* six-section str */
     .six-section > div div div{display: block;}
     /* six-section fin */
+
+}
+@media screen and (max-width: 805px){
+    /* login str */
+    .right-subbox,
+    .login-box > div{display: block;}
+    .login-box > div{padding: 60px;}
+    .right-subbox > div:first-of-type label input{max-width: 100%;}
+    .right-subbox > div:last-of-type a{max-width: 100%; height: 45px; font-size: 17px; margin-top: 20px;}
+    .sub-margin{margin: 50px auto;}
+    .login-box > div > div img{margin-bottom: 30px;}
+    /* login fin */
 }
 @media screen and (max-width: 735px){
     /* slider_section str */
@@ -150,6 +189,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
     .six-section > div button{height: 45px;}
     /* six-section fin */
 }
+
 @media screen and (max-width: 500px){
     /* slider_section str */
     .swiper-slide > div {left: 40px;}
@@ -165,4 +205,14 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
      /* five-section str */
      .five-section div h2{font-size: 30px;}
      /* five-section fin */
+
+     /* login str */
+     .login-box > div{padding: 50px 30px;}
+     .right-loginbox > p{line-height: 20px;}
+     .right-loginbox ul li:first-of-type{padding-right: 7px; margin-right: 7px;}
+     /* login str */
+}
+@media screen and (max-width: 350px){
+    .login-box > div{padding: 40px 15px;}
+    .right-loginbox ul li a{font-size: 14px;}
 }
