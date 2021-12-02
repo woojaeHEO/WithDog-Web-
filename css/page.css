@@ -1,5 +1,6 @@
 
 .title-margin{text-align: center; margin-bottom: 80px;}
+/* main page str */
 /* slider_section str */
 html,
 body{position: relative;height: 100%;}
@@ -75,6 +76,28 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .six-section > div button{background: #000; border-radius: 30px; margin-top: 6px; max-width: 344px; width: 100%; font-size: 31px; color: white;  text-align: center; border: none; height: 60px;}
 .last-img{display: block; width: 100%; max-width: 1903px;}
 /* six-section fin */
+/* main page fin */
+
+/* sub page str */
+/* login str */
+.login-section{margin: 80px auto;}
+.login-title{font-size: 30px; font-weight: 700; display: block; border-bottom: 2px solid black; padding-bottom: 7px; margin-bottom: 25px;}
+.login-box{border: 1px solid black; border-top: 3px solid #8D94C7;}
+.login-box > div{display: flex; padding: 90px; justify-content: space-between;}
+.right-subbox > div,
+.login-box > div > div{width: 100%;}
+.login-box > div > div img{display: block; width: 100%; max-width: 200px; margin: 0 auto;}
+.right-loginbox > strong{font-size: 30px; display: block; margin-bottom: 10px;}
+.right-loginbox > p{font-size: 15px; margin-bottom: 10px;}
+.right-loginbox ul li{display: inline-block;}
+.right-loginbox ul li a{font-size: 15px; display: block; color: black;}
+.right-loginbox ul li:first-of-type{border-right: 1px solid black; padding-right: 15px; margin-right: 15px;}
+.color-blue{color: #5990c9;}
+.right-subbox{display: flex; margin-bottom: 20px;}
+.right-subbox > div:first-of-type label input{border: 1px solid #ededed; width: 100%; max-width: 220px; height: 44px; padding-left: 15px; display: block;}
+.right-subbox > div:last-of-type a{display: flex; justify-content: center; align-items: center; background-color: #8D94C7; color: white; font-weight: 700; font-size: 23px; width: 100%; max-width: 115px; height: 96px;;}
+/* login fin */
+/* sub page fin */
 
 @media screen and (max-width: 1139px){
     /* slider_section str */
