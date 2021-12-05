@@ -107,8 +107,8 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .terms-title{font-size: 23px; margin-bottom: 20px; font-weight: 700;}
 .terms-box{margin-bottom: 30px;}
 .terms-box textarea{width: 100%; text-align: left; background-color: #f6f6f6; padding: 30px; box-sizing: border-box; margin-bottom: 20px;}
-.label-box label:last-of-type{margin-left: 10px;}
-.label-box label input{margin: 0 5px 0 0;}
+.label-box{display: flex;}
+.label-box > div:last-of-type{margin-left: 10px;}
 .total-terms{text-align: center; display: block; width: 100%; margin: 20px 0;}
 .total-terms label{text-align: center}
 .next-button{display: block; background: url('../img/next-icon.png') no-repeat 80px center; width: 100%; max-width: 104px; height: 40px; color: white; border-radius: 5px; margin: 0 auto; text-align: center; line-height: 40px; background-color: #8D94C7;}
@@ -124,6 +124,20 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .certification-box > div > div:last-of-type strong{font-size: 25px;  display: block; font-weight: 700; margin: 10px 0 20px 0;}
 .certification-box > div > div:last-of-type p{font-size: 15px; line-height: 22px; color: #666666;}
 /* certification fin */
+
+/* information str */
+.info-table{width: 100%; border-top: 2px solid #8D94C7;}
+.info-table caption{text-indent: -9999px;}
+.info-table th{background-color: #eff4f8; height: 48px; vertical-align: middle;}
+.info-table td{padding-left: 15px; line-height: 48px;}
+.info-table tr{border-bottom: 1px solid #e2e7eb;}
+.flex-table{display: flex; align-items: center;}
+.flex-table p{font-size: 14px; color: #717171; margin-left: 10px;}
+.ip-hg{height: 30px; border: 1px solid #e2e7eb;}
+.table-button{ background-color: white; border: 1px solid #717171; height: 30px; margin-left: 10px; border-radius: 5px;}
+input[type='radio']{margin: 0 5px 0 0;}
+.tr-hg td{padding: 7px 0 7px 15px;}
+/* information fin */
 /* sub page fin */
 
 @media screen and (max-width: 1139px){
@@ -146,6 +160,11 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
     .six-section > div div div{display: block;}
     /* six-section fin */
 
+    /* information str */
+    .flex-table{display: block;}
+    .flex-table p{margin: 5px 0 5px 0; line-height: 20px;}
+    /* infortmation fin */
+
 }
 @media screen and (max-width: 805px){
     /* login str */
@@ -157,6 +176,20 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
     .sub-margin{margin: 50px auto;}
     .login-box > div > div img{margin-bottom: 30px;}
     /* login fin */
+
+    /* certification str */
+    .certification-box{display: block;}
+    .certification-box > div{width: 100%; display: block; text-align: center; margin-bottom: 20px;}
+    .certification-box > div > div:last-of-type,
+    .certification-box > div > div:first-of-type{margin: 0 auto;}
+    .certification-box > div > div img{margin-bottom: 20px;}
+    /* certification fin */
+
+    /* information str */
+    .info-table th{width: 30%;line-height: 20px;}
+    .flex-table p{font-size: 13px;}
+    .table-button{margin-left: 0;}
+    /* information fin */
 }
 @media screen and (max-width: 735px){
     /* slider_section str */
@@ -188,9 +221,17 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
     .six-section > div div p {font-size: 17px;}
     .six-section > div button{height: 45px;}
     /* six-section fin */
+
+    /* memberjoin str */
+    .label-box{display: block;}
+    .label-box div{display: inline-block; margin-bottom: 10px; width: 100%;}
+    .label-box div:last-of-type{margin-left: 0;}
+    /* memberjoin fin */
 }
 
 @media screen and (max-width: 500px){
+    /* .container{width: calc(100% - 30px);} */
+
     /* slider_section str */
     .swiper-slide > div {left: 40px;}
     .swiper-slide > div P{display: none;}
@@ -210,7 +251,9 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
      .login-box > div{padding: 50px 30px;}
      .right-loginbox > p{line-height: 20px;}
      .right-loginbox ul li:first-of-type{padding-right: 7px; margin-right: 7px;}
+     .member-ul li a{font-size: 14px;}
      /* login str */
+
 }
 @media screen and (max-width: 350px){
     .login-box > div{padding: 40px 15px;}
