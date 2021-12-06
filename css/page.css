@@ -20,7 +20,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 /* slider_section fin */
 
 /* second-section str */
-.second-section > div{background-color: #cbf0fc;}
+/* .second-section > div{background-color: #cbf0fc;} */
 .second-sub{background-color: white; box-shadow: #ddd 0px 0px 10px 3px; padding: 40px 0;}
 .second-sub > ul{display: flex; margin-bottom: 30px; flex-wrap: wrap;}
 .second-sub > ul li{width: 25%;}
