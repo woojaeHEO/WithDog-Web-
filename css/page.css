@@ -104,7 +104,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .member-ul{display: flex; margin-bottom: 40px;}
 .member-ul li{width: 33%; cursor: pointer; text-align: center; padding: 15px 0; border-radius: 10px 10px 0 0; background-color: #e2e9f2; border-bottom: 2px solid #8D94C7;}
 .member-ul li.active{background-color: white; border: 2px solid #8D94C7; border-bottom: none;}
-.member-ul li a{color: black;}
+.member-ul li a{color: black; display: block;}
 .terms-title{font-size: 23px; margin-bottom: 20px; font-weight: 700;}
 .terms-box{margin-bottom: 30px;}
 .terms-box textarea{width: 100%; text-align: left; background-color: #f6f6f6; padding: 30px; box-sizing: border-box; margin-bottom: 20px;}
