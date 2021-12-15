@@ -156,6 +156,11 @@ input[type='radio']{margin: 0 5px 0 0;}
 .id-name{font-size: 25px; display: block; font-weight: 700; margin-bottom: 15px; text-align: center; color: #8D94C7;}
 .result-p{font-size: 15px; color: #606060; margin-bottom: 70px; text-align: center;}
 /* idfind result fin */
+
+/* pwresult str */
+.idfind-box > img{display: block; width: 100%; max-width: 350px; margin: 0 auto 30px;}
+.pw-text{text-align: center; color: #606060; font-size: 17px; margin: 30px 0 60px 0; line-height: 24px;}
+/* pwresult fin */
 /* sub page fin */
 
 @media screen and (max-width: 1139px){
