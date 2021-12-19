@@ -21,6 +21,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 
 /* second-section str */
 /* .second-section > div{background-color: #cbf0fc;} */
+.second-section{border-bottom: 1px solid #bbbbbb; padding-bottom: 80px;}
 .second-sub{background-color: white; box-shadow: #ddd 0px 0px 10px 3px; padding: 40px 0;}
 .second-sub > ul{display: flex; margin-bottom: 30px; flex-wrap: wrap;}
 .second-sub > ul li{width: 25%;}
@@ -103,7 +104,7 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 .member-ul{display: flex; margin-bottom: 40px;}
 .member-ul li{width: 33%; cursor: pointer; text-align: center; padding: 15px 0; border-radius: 10px 10px 0 0; background-color: #e2e9f2; border-bottom: 2px solid #8D94C7;}
 .member-ul li.active{background-color: white; border: 2px solid #8D94C7; border-bottom: none;}
-.member-ul li a{color: black;}
+.member-ul li a{color: black; display: block;}
 .terms-title{font-size: 23px; margin-bottom: 20px; font-weight: 700;}
 .terms-box{margin-bottom: 30px;}
 .terms-box textarea{width: 100%; text-align: left; background-color: #f6f6f6; padding: 30px; box-sizing: border-box; margin-bottom: 20px;}
@@ -138,6 +139,28 @@ body{background: white;color: #000;font-family: 'Poppins', sans-serif;}
 input[type='radio']{margin: 0 5px 0 0;}
 .tr-hg td{padding: 7px 0 7px 15px;}
 /* information fin */
+
+/* idfind str */
+.mobile-width{max-width: 560px; margin: 70px auto 80px;  min-height: calc(100vh - 422px );}
+.title-h2{font-size: 35px; text-align: center; margin-bottom: 30px;}
+.label-input{margin-bottom: 30px;}
+.label-input label input{width: 100%; border-radius: 5px; font-weight: 500; height: 56px; padding-left: 20px; box-sizing: border-box; line-height: 56px; border: 1px solid #dddddd}
+.idfind-box > div{display: block;}
+.en-button{color: white; font-weight: 700; display: block; border: none; text-align: center; margin-bottom: 20px; height: 70px; font-size: 20px; width: 100%; line-height: 70px; background-color: #8D94C7; border-radius: 5px;}
+.back-button{color: #656565; border: 1px solid #cccccc;  background-color: white;}
+/* idfind fin */
+
+/* idfind result str */
+.on-button2{background-color: white; color: #8D94C7; border: 1px solid #8D94C7;}
+.resutl-h3{font-size: 30px; text-align: center; font-weight: 400; margin-bottom: 35px;}
+.id-name{font-size: 25px; display: block; font-weight: 700; margin-bottom: 15px; text-align: center; color: #8D94C7;}
+.result-p{font-size: 15px; color: #606060; margin-bottom: 70px; text-align: center;}
+/* idfind result fin */
+
+/* pwresult str */
+.idfind-box > img{display: block; width: 100%; max-width: 350px; margin: 0 auto 30px;}
+.pw-text{text-align: center; color: #606060; font-size: 17px; margin: 30px 0 60px 0; line-height: 24px;}
+/* pwresult fin */
 /* sub page fin */
 
 @media screen and (max-width: 1139px){
@@ -227,6 +250,11 @@ input[type='radio']{margin: 0 5px 0 0;}
     .label-box div{display: inline-block; margin-bottom: 10px; width: 100%;}
     .label-box div:last-of-type{margin-left: 0;}
     /* memberjoin fin */
+
+    /* idresult str */
+    .resutl-h3{font-size: 20px; margin-bottom: 30px;}
+    .result-p{margin-bottom: 50px;}
+    /* idresult fin */
 }
 
 @media screen and (max-width: 500px){
@@ -253,6 +281,10 @@ input[type='radio']{margin: 0 5px 0 0;}
      .right-loginbox ul li:first-of-type{padding-right: 7px; margin-right: 7px;}
      .member-ul li a{font-size: 14px;}
      /* login str */
+
+     /* idresult str */
+     .resutl-h3{font-size: 16px;}
+     /* idresult fin */
 
 }
 @media screen and (max-width: 350px){
